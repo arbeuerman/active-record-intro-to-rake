@@ -25,7 +25,7 @@ describe "Rakefile" do
 
   describe 'console' do
     it 'exists' do
-      expect(Rake::Task['console']).to be_truthy, "Make sure you have a 'console' rake task"
+      expect(Rake::Task['db:console']).to be_truthy, "Make sure you have a 'console' rake task"
     end
   end
 
